@@ -51,6 +51,9 @@ a {
     font-family: Georgia;
     color: black;
 }
+.li:hover{ 
+    transform: scale(1.2);
+}
 .parrafo{
     color: black;
     font-size: 8mm;
@@ -82,6 +85,9 @@ a {
 .logo{
     max-width: 400px;
 }
+.logo:hover{
+    transform: scale(1.1);
+}
 /* accesorios con grid */
 .gridaccesorio{
     display: grid;
@@ -101,6 +107,9 @@ a {
 .logogrid{
     max-width: 175px;
 }
+.logogrid:hover{
+    transform: scale(1.1);
+}
 .menuenlinea{
     display: flex;
     flex-direction: row;
@@ -113,6 +122,9 @@ a {
     font-family: georgia;
     font-style: normal;
     color: black;
+}
+.lif:hover{
+    transform: scale(1.2);
 }
 .main{
     grid-area: main;
